@@ -1,0 +1,297 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="UK Barber — premium grooming, haircuts and beard styling.">
+  <title>UK BARBER | Premium Grooming</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="barber.css">
+</head>
+<body>
+
+  <div class="loader" id="loader">
+    <div class="loader-logo">UK<span>.</span></div>
+    <div class="loader-bar"><span></span></div>
+  </div>
+
+  <div class="cursor-glow"></div>
+
+  <header class="navbar">
+    <a class="logo" href="#home">UK<span> BARBER.</span></a>
+
+    <button class="menu-toggle" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#barbers">Barbers</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact" class="nav-book">Book Now ↗</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">☼</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow reveal">PREMIUM GROOMING EXPERIENCE</p>
+        <h1 class="hero-title reveal">YOUR STYLE.<br><span>YOUR RULES.</span></h1>
+        <p class="hero-description reveal">
+          More than a haircut. It's a statement. Experience modern grooming
+          with classic barber craftsmanship.
+        </p>
+        <div class="hero-buttons reveal">
+          <a href="#contact" class="gold-btn">BOOK YOUR VISIT ↗</a>
+          <a href="#services" class="text-btn">EXPLORE SERVICES ↓</a>
+        </div>
+        <div class="hero-bottom reveal">
+          <span>EST. 2020</span>
+          <span>PRECISION · STYLE · CONFIDENCE</span>
+        </div>
+      </div>
+      <div class="hero-number">01 / 08</div>
+      <div class="scroll-indicator">SCROLL TO EXPLORE ↓</div>
+    </section>
+
+    <section class="intro section" id="about">
+      <div class="intro-image reveal">
+        <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1000&q=85" alt="Modern barber shop">
+        <div class="image-label">THE ART OF GROOMING</div>
+      </div>
+      <div class="intro-content reveal">
+        <p class="eyebrow">WELCOME TO UK BARBER</p>
+        <h2>CONFIDENCE<br>STARTS WITH <span>STYLE.</span></h2>
+        <p>We combine modern trends, classic techniques and attention to detail to give every customer a grooming experience worth remembering.</p>
+        <a href="#barbers" class="line-link">MEET OUR TEAM ↗</a>
+        <div class="stats">
+          <div><strong>05+</strong><small>YEARS EXPERIENCE</small></div>
+          <div><strong>1K+</strong><small>HAPPY CLIENTS</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="section-heading reveal">
+        <p class="eyebrow">WHAT WE OFFER</p>
+        <h2>THE PERFECT <span>LOOK.</span></h2>
+        <p>Premium grooming services made around your style.</p>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card reveal">
+          <div class="service-icon">✂</div><span class="service-number">01</span>
+          <h3>Classic Haircut</h3><p>A clean, timeless haircut tailored to your personality.</p>
+          <div class="service-bottom"><span>FROM £20</span><a href="#contact">BOOK ↗</a></div>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-icon">◈</div><span class="service-number">02</span>
+          <h3>Skin Fade</h3><p>Sharp fades and smooth transitions with precision.</p>
+          <div class="service-bottom"><span>FROM £25</span><a href="#contact">BOOK ↗</a></div>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-icon">♜</div><span class="service-number">03</span>
+          <h3>Beard Styling</h3><p>Professional beard shaping for a fresh, sharp look.</p>
+          <div class="service-bottom"><span>FROM £15</span><a href="#contact">BOOK ↗</a></div>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-icon">✦</div><span class="service-number">04</span>
+          <h3>Hair & Beard</h3><p>A complete grooming experience from start to finish.</p>
+          <div class="service-bottom"><span>FROM £35</span><a href="#contact">BOOK ↗</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="barbers section" id="barbers">
+      <div class="section-heading reveal">
+        <p class="eyebrow">THE PEOPLE BEHIND THE CUT</p>
+        <h2>MEET OUR <span>BARBERS.</span></h2>
+        <p>Choose your barber when requesting an appointment.</p>
+      </div>
+
+      <div class="barber-grid">
+        <article class="barber-card reveal">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=85" alt="Barber Alex">
+          <div class="barber-info"><span>MASTER BARBER</span><h3>Alex Morgan</h3><p>Fades & modern styles</p></div>
+        </article>
+        <article class="barber-card reveal">
+          <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=700&q=85" alt="Barber James">
+          <div class="barber-info"><span>SENIOR BARBER</span><h3>James Wilson</h3><p>Classic cuts & styling</p></div>
+        </article>
+        <article class="barber-card reveal">
+          <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=700&q=85" alt="Barber Daniel">
+          <div class="barber-info"><span>BEARD SPECIALIST</span><h3>Daniel Smith</h3><p>Beard design & grooming</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="before-after section" id="beforeAfter">
+      <div class="section-heading reveal">
+        <p class="eyebrow">THE TRANSFORMATION</p>
+        <h2>SEE THE <span>DIFFERENCE.</span></h2>
+        <p>Drag the slider to compare the before and after images.</p>
+      </div>
+
+      <div class="comparison reveal">
+        <img class="comparison-before" src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1200&q=85" alt="Before grooming">
+        <div class="comparison-after">
+          <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1200&q=85" alt="After grooming">
+        </div>
+        <span class="compare-label before-label">BEFORE</span>
+        <span class="compare-label after-label">AFTER</span>
+        <div class="compare-line"><span>↔</span></div>
+        <input type="range" min="0" max="100" value="50" class="compare-range" aria-label="Compare before and after images">
+      </div>
+      <p class="demo-note">Demo comparison images. Replace with genuine customer photos only with their permission.</p>
+    </section>
+
+    <section class="statement">
+      <div class="statement-bg"></div>
+      <div class="statement-content reveal">
+        <p class="eyebrow">NOT JUST A BARBER SHOP</p>
+        <h2>LOOK SHARP.<br><span>FEEL DIFFERENT.</span></h2>
+        <a href="#contact" class="gold-btn">MAKE YOUR BOOKING ↗</a>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="section-heading reveal">
+        <p class="eyebrow">OUR WORK</p><h2>THE <span>GALLERY.</span></h2>
+        <p>Every detail matters. Every style tells a story.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item tall reveal"><img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=85" alt="Barber haircut"><span>01 / PRECISION</span></div>
+        <div class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=900&q=85" alt="Barber styling"><span>02 / DETAIL</span></div>
+        <div class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=85" alt="Barber interior"><span>03 / EXPERIENCE</span></div>
+      </div>
+    </section>
+
+    <section class="reviews section" id="reviews">
+      <div class="section-heading reveal">
+        <p class="eyebrow">CLIENT EXPERIENCES</p><h2>THE WORD <span>IS YOURS.</span></h2>
+        <p>Sample testimonials for this portfolio demo.</p>
+      </div>
+
+      <div class="review-wrap reveal">
+        <button class="review-arrow" id="reviewPrev" aria-label="Previous review">‹</button>
+        <div class="review-card">
+          <div class="stars" id="reviewStars">★★★★★</div>
+          <p id="reviewText">“Great attention to detail. The team made the whole experience comfortable.”</p>
+          <h3 id="reviewName">Oliver R.</h3>
+          <span id="reviewRole">CUSTOMER</span>
+        </div>
+        <button class="review-arrow" id="reviewNext" aria-label="Next review">›</button>
+      </div>
+      <div class="review-dots" id="reviewDots"></div>
+    </section>
+
+    <section class="membership section" id="membership">
+      <div class="section-heading reveal">
+        <p class="eyebrow">EXCLUSIVE MEMBERSHIP</p><h2>LOOK GOOD. <span>EVERY MONTH.</span></h2>
+        <p>Example packages — customise prices and benefits for the real shop.</p>
+      </div>
+
+      <div class="plan-grid">
+        <article class="plan-card reveal">
+          <span class="plan-tag">STARTER</span><h3>Essential</h3>
+          <div class="plan-price">£39<span>/ month</span></div>
+          <ul><li>✓ 2 classic haircuts</li><li>✓ Priority booking</li><li>✓ Member offers</li></ul>
+          <a href="#contact" class="outline-btn">CHOOSE PLAN</a>
+        </article>
+        <article class="plan-card featured reveal">
+          <span class="plan-tag">MOST POPULAR</span><h3>Premium</h3>
+          <div class="plan-price">£59<span>/ month</span></div>
+          <ul><li>✓ 2 haircuts</li><li>✓ 2 beard trims</li><li>✓ Priority booking</li><li>✓ Exclusive offers</li></ul>
+          <a href="#contact" class="gold-btn">CHOOSE PLAN ↗</a>
+        </article>
+        <article class="plan-card reveal">
+          <span class="plan-tag">ELITE</span><h3>VIP</h3>
+          <div class="plan-price">£89<span>/ month</span></div>
+          <ul><li>✓ 4 grooming sessions</li><li>✓ Beard styling</li><li>✓ VIP booking access</li><li>✓ Member discounts</li></ul>
+          <a href="#contact" class="outline-btn">CHOOSE PLAN</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-info reveal">
+        <p class="eyebrow">READY FOR A FRESH LOOK?</p>
+        <h2>LET'S MAKE<br>YOU <span>SHARP.</span></h2>
+        <p>Choose your service, barber and preferred appointment time. Send a booking request to get started.</p>
+        <div class="contact-detail"><span>LOCATION</span><strong>YOUR CITY, UNITED KINGDOM</strong></div>
+        <div class="contact-detail"><span>OPENING HOURS</span><strong>MON – SAT · 09:00 – 19:00</strong></div>
+        <a class="whatsapp-btn" id="whatsappLink" href="#" target="_blank" rel="noopener">✆ BOOK VIA WHATSAPP</a>
+      </div>
+
+      <form class="booking-form reveal" id="bookingForm">
+        <h3>REQUEST A BOOKING</h3>
+        <label for="customerName">Your Name</label>
+        <input type="text" id="customerName" placeholder="Enter your name" required>
+
+        <label for="customerPhone">Phone Number</label>
+        <input type="tel" id="customerPhone" placeholder="Enter your phone number" required>
+
+        <label for="customerEmail">Email Address</label>
+        <input type="email" id="customerEmail" placeholder="Enter your email">
+
+        <label for="serviceSelect">Choose Service</label>
+        <select id="serviceSelect" required>
+          <option value="">Select a service</option>
+          <option>Classic Haircut</option><option>Skin Fade</option>
+          <option>Beard Styling</option><option>Hair & Beard</option>
+        </select>
+
+        <label for="barberSelect">Choose Barber</label>
+        <select id="barberSelect" required>
+          <option value="">Select a barber</option>
+          <option>Alex Morgan</option><option>James Wilson</option>
+          <option>Daniel Smith</option><option>Any Available Barber</option>
+        </select>
+
+        <label for="bookingDate">Preferred Date</label>
+        <input type="date" id="bookingDate" required>
+
+        <label for="bookingTime">Preferred Time</label>
+        <select id="bookingTime" required>
+          <option value="">Select a time</option>
+          <option>09:00</option><option>10:00</option><option>11:00</option>
+          <option>12:00</option><option>13:00</option><option>14:00</option>
+          <option>15:00</option><option>16:00</option><option>17:00</option>
+          <option>18:00</option>
+        </select>
+
+        <button type="submit" class="gold-btn submit-btn">SEND BOOKING REQUEST ↗</button>
+        <p class="form-note">Demo only: this form does not reserve a real appointment.</p>
+        <p id="formMessage" role="status"></p>
+      </form>
+    </section>
+
+    <section class="location section" id="location">
+      <div class="section-heading reveal">
+        <p class="eyebrow">COME VISIT US</p><h2>FIND <span>OUR SHOP.</span></h2>
+        <p>Replace this sample location with the real business address.</p>
+      </div>
+      <div class="map-frame reveal">
+        <iframe title="Map placeholder for UK Barber" src="https://maps.google.com/maps?q=London%20United%20Kingdom&t=&z=11&ie=UTF8&iwloc=&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <p class="demo-note">Map currently shows London as a placeholder. Update it to the shop's actual address.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#home" class="logo">UK<span> BARBER.</span></a>
+    <p>CRAFTED WITH STYLE. BUILT FOR CONFIDENCE.</p>
+    <a href="#home" class="back-top">BACK TO TOP ↑</a>
+    <small>© <span id="year"></span> UK BARBER. PORTFOLIO DEMO.</small>
+  </footer>
+
+  <script src="barber.js"></script>
+</body>
+</html>
